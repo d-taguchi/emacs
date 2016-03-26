@@ -71,6 +71,9 @@
 ;; C-kで行全体を削除する
 (setq kill-whole-line t)
 
+;; 垂直揃え
+(define-key global-map (kbd "M-:") 'align-regexp)
+
 
 ;; ------------------------------------------------------------------------
 ;; @ general
