@@ -193,7 +193,7 @@ read-only."
 	'(asm-mode awk-mode autoconf-mode c-mode c++-mode cc-mode change-log-mode
 	  cperl-mode emacs-lisp-mode java-mode html-mode lisp-mode
 	  lisp-interaction-mode m4-mode makefile-mode objc-mode pascal-mode
-	  perl-mode sh-mode shell-script-mode sgml-mode xml-mode php-mode))
+	  perl-mode sh-mode shell-script-mode sgml-mode xml-mode php-mode web-mode))
   "List of major mode symbols to enable jaspace-mode automatically."
   :group 'jaspace
   :type '(repeat (symbol :tag "Major Mode")))
